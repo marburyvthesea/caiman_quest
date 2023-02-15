@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH -A p30771
+#SBATCH -A p31904
 #SBATCH -p normal
 #SBATCH -t 12:00:00
-#SBATCH -o /home/jma819/caiman_quest/demos/notebooks/caiman_analysis/logfiles/slurm.%x-%j.out # STDOUT
+#SBATCH -o /home/yzh/caiman_quest/logfiles/slurm.%x-%j.out # STDOUT
 #SBATCH --job-name="slurm_normcorr"
 #SBATCH -N 1
 #SBATCH -n 6
@@ -13,7 +13,7 @@ module purge all
 cd ~
 
 #add project directory to PATH
-export PATH=$PATH/projects/p30771/
+export PATH=$PATH/projects/p31904/
 
 #load modules to use
 module load python/anaconda3.6 
@@ -24,7 +24,7 @@ source activate caiman
 
 #need to cd to module directory
 
-cd /home/jma819/caiman_quest/demos/notebooks/caiman_analysis
+cd /home/yzh336/caiman_quest/demos/notebooks/caiman_analysis
 
 #run normcorr
 
