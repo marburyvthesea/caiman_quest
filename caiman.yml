@@ -1,4 +1,4 @@
-name: base
+name: caiman
 channels:
   - conda-forge
   - defaults
