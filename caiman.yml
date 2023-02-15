@@ -6,10 +6,10 @@ dependencies:
   - _ipyw_jlab_nb_ext_conf=0.1.0=py37_0
   - _libgcc_mutex=0.1=main
   - alabaster=0.7.12=py37_0
-  - anaconda=2019.10=py37_0
-  - anaconda-client=1.7.2=py37_0
-  - anaconda-navigator=1.9.7=py37_0
-  - anaconda-project=0.8.3=py_0
+
+
+
+
   - asn1crypto=1.0.1=py37_0
   - astroid=2.3.1=py37_0
   - astropy=3.2.2=py37h7b6447c_0
@@ -42,11 +42,11 @@ dependencies:
   - cloudpickle=1.2.2=py_0
   - clyent=1.2.2=py37_1
   - colorama=0.4.1=py37_0
-  - conda=4.7.12=py37_0
-  - conda-build=3.18.9=py37_3
-  - conda-env=2.6.0=1
-  - conda-package-handling=1.6.0=py37h7b6447c_0
-  - conda-verify=3.4.2=py_1
+
+
+
+
+
   - contextlib2=0.6.0=py_0
   - cryptography=2.7=py37h1ba5d50_0
   - curl=7.65.3=hbc83047_0
